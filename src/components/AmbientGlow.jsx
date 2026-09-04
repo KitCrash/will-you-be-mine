@@ -1,0 +1,11 @@
+import React from 'react';
+
+export default function AmbientGlow() {
+  return (
+    <div className="ambient-glow-wrapper" aria-hidden="true">
+      <div className="ambient-glow glow-1" />
+      <div className="ambient-glow glow-2" />
+      <div className="ambient-glow glow-3" />
+    </div>
+  );
+}
