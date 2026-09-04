@@ -24,49 +24,49 @@ export const CONFIG = {
   reactions: [
     {
       // Initial state
-      gifUrl: "/gifs/image1.gif",
+      gifUrl: "./gifs/image1.gif",
       stickerType: "stage0",
       emoji: "🥺👉👈",
       message: "Please say yes...",
     },
     {
       // After NO click 1
-      gifUrl: "/gifs/image2.gif",
+      gifUrl: "./gifs/image2.gif",
       stickerType: "stage1",
       emoji: "🥹💗",
       message: "Are you sure? 🥺",
     },
     {
       // After NO click 2
-      gifUrl: "/gifs/image3.gif",
+      gifUrl: "./gifs/image3.gif",
       stickerType: "stage2",
       emoji: "😭🥺",
       message: "Think again… 🥹",
     },
     {
       // After NO click 3
-      gifUrl: "/gifs/image4.gif",
+      gifUrl: "./gifs/image4.gif",
       stickerType: "stage3",
       emoji: "💔🥹",
       message: "My heart is breaking 💔",
     },
     {
       // After NO click 4
-      gifUrl: "/gifs/image5.gif",
+      gifUrl: "./gifs/image5.gif",
       stickerType: "stage4",
       emoji: "😭😭❤️🩹",
       message: "Pleaseee 😭❤️",
     },
     {
       // After NO click 5
-      gifUrl: "/gifs/image6.gif",
+      gifUrl: "./gifs/image6.gif",
       stickerType: "stage5",
       emoji: "🥺🥀💔",
       message: "You can't say no forever 😭❤️",
     },
     {
       // After NO click 6 (NO button disappears)
-      gifUrl: "/gifs/image6.gif",
+      gifUrl: "./gifs/image6.gif",
       stickerType: "stage6",
       emoji: "🥺👉👈💖",
       message: "One more chance? 🥺👉👈",
@@ -91,7 +91,7 @@ export const CONFIG = {
   celebration: {
     title: "I KNEW IT! ❤️🥰",
     subtitle: "You just made me the happiest person alive. 💕",
-    gifUrl: "/gifs/image7.gif",
+    gifUrl: "./gifs/image7.gif",
     stickerType: "celebration",
     emoji: "🥰🎉💃",
     buttonText: "One More Thing… 💌"
